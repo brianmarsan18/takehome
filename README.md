@@ -9,8 +9,8 @@ python3 -m http.server 5173
 Open http://localhost:5173. No install or build required. All application files are local; optional Google Fonts fall back to system fonts if offline.
 
 ## Review path
-1. Open Sunday Slate from Groups.
-2. Tail or Fade Alex’s proposal; edit the amount and simulate a buy.
+1. Open 928 Oakland from Groups.
+2. Swipe right to Tail or left to Fade Alex’s proposal (or use the buttons). Set your own dollar unit size, choose ½u / 1u / 2u or a custom amount, then review and simulate a buy.
 3. Open market activity; inspect mock friends’ buys/sells.
 4. Share the market into one or more groups, optionally adding a note.
 5. Return to the group; check Your archive and restore a proposal.
@@ -26,4 +26,4 @@ Existing membership and friendships are seeded. All people, fixtures, prices and
 
 Executing or manually archiving a proposal affects only the current demo user. Pending proposals remain active until dismissed. Sharing a proposal never submits a trade. The opt-in setting controls market activity visibility, not visibility of group proposals. Friends’ activity is seeded, historical context; it does not imply live prices or recommendations.
 
-Browser localStorage persists simulated orders, shares, archive and privacy choice. Reset demo clears them. No API requests or real trades are made. Prototype does not imply affiliation with Novig.
+Browser localStorage persists simulated orders, shares, archive, privacy choice and user-selected unit size. Swipes only open sizing review; they never execute an order. Unit size is optional and can be edited from a group, order review or profile. Reset demo clears them. No API requests or real trades are made. Prototype does not imply affiliation with Novig.
